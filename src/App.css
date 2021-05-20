@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.food-item {
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px -7px #ccc;
+}
+
+.meal-content {
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  width: 260px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+input[type="text"]:focus {
+  border-color: #333;
+}
